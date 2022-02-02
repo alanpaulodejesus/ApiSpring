@@ -8,6 +8,7 @@ public class WebConfiguration {
 
     @Bean(name="applicationName")
     public String applicationName(){
+
         return "Sistema de Vendas";
     }
 
