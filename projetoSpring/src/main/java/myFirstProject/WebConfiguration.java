@@ -10,4 +10,5 @@ public class WebConfiguration {
     public String applicationName(){
         return "Sistema de Vendas";
     }
+
 }
