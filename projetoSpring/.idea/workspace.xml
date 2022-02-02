@@ -50,10 +50,12 @@
       <file leaf-file-name="ClienteService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/myFirstProject/service/ClienteService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,8 +112,8 @@
         <option value="$PROJECT_DIR$/src/main/java/myFirstProject/VendasApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/myFirstProject/WebConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/myFirstProject/model/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/main/java/myFirstProject/service/ClienteService.java" />
         <option value="$PROJECT_DIR$/src/main/java/myFirstProject/repository/ClientesRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myFirstProject/service/ClienteService.java" />
       </list>
     </option>
   </component>
@@ -480,10 +482,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myFirstProject/service/ClienteService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
           </folding>
         </state>
       </provider>
