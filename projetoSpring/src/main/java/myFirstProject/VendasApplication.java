@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VendasApplication {
 
-    @Value("${application.name}") //--> Valor direto da propriedade application.properties
-    /*
-    @Autowired
-    @Qualifier("applicationName")
-     */
+     @Value("${application.name}") //--> Valor direto da propriedade application.properties
+     /*
+     @Autowired
+     @Qualifier("applicationName")
+    */
     private String applicationName;
 
     @GetMapping("/hello")
