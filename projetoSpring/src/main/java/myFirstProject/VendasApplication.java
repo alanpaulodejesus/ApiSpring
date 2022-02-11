@@ -20,6 +20,7 @@ public class VendasApplication {
             clientes.salvar(new Cliente("Alan"));
             clientes.salvar(new Cliente("Alan II"));
 
+
             List<Cliente> todosClientes = clientes.obterTodos();
             todosClientes.forEach(System.out::println);
 
@@ -27,6 +28,7 @@ public class VendasApplication {
                 c.setNome(c.getNome() + " Atualizado!");
                 clientes.atualizar(c);
             });
+
 
             System.out.println("Buscando..");
             clientes.buscarPorNome("Alan").forEach(System.out::println);
@@ -42,6 +44,8 @@ public class VendasApplication {
             }else {
                 todosClientes.forEach(System.out::println);
             }
+
+
             /*
             Cliente cliente2 = new Cliente();
             cliente2.setNome("Alan II");
