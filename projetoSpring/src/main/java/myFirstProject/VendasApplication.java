@@ -1,7 +1,7 @@
 package myFirstProject;
 
-import myFirstProject.domain.enty.Cliente;
-import myFirstProject.domain.repositorio.Clientes;
+import myFirstProject.domain.entity.Cliente;
+import myFirstProject.domain.repository.Clientes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -21,8 +21,8 @@ public class VendasApplication {
             clientes.save(new Cliente("Alfan II"));
 
 
-            boolean existe = clientes.existsByNome("Alan");
-            System.out.println("Existe o: "+existe);
+            List<Cliente> result = clientes.encontraPorNome("Alan");
+            result.forEach(System.out::println);
 
 
         };
