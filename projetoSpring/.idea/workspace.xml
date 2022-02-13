@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65791104-7929-4d69-b277-4fbaa3f361d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/rest/controller/ClienteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/VendasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/VendasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/Clientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/Clientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/ItensPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/ItemsPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/Pedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/repository/Pedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/VendasApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myFirstProject/VendasApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/enty/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/enty/ItemPedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/enty/Pedido.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/enty/Produto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/repositorio/Clientes.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +21,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Project_With_JPA" />
+        <entry key="$PROJECT_DIR$/.." value="Project_With_SpringData" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
