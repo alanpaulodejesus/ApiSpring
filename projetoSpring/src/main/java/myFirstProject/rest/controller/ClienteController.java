@@ -2,12 +2,15 @@ package myFirstProject.rest.controller;
 
 import myFirstProject.domain.entity.Cliente;
 import myFirstProject.domain.repository.Clientes;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.repository.query.Param;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.ServletRequestBindingException;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -63,4 +66,14 @@ public class ClienteController {
                 }).orElseGet(()->ResponseEntity.notFound().build());
 
     }
+
+    @GetMapping("/api/clientes")
+    public ResponseEntity find(Cliente filtro){
+        ExampleMatcher matcher = ExampleMatcher.matching().withIgnoreCase().withStringMatcher(ExampleMatcher.StringMatcher.CONTAINING);
+        Example example = Example.of(filtro, matcher);
+
+        List<Cliente> lista = clientes.findAll(example);
+        return ResponseEntity.ok(lista);
+    }
+
 }
