@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65791104-7929-4d69-b277-4fbaa3f361d7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/exception/RegraNegocioException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/rest/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/rest/dto/ItemPedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/rest/dto/PedidoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/service/impl/PedidoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetoSpring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetoSpring.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myFirstProject/domain/entity/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/domain/entity/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myFirstProject/domain/entity/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/myFirstProject/rest/controller/ProdutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/myFirstProject/rest/controller/ProdutoController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,8 +180,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Appium/Appium_Ambiente" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alan.jesus\projeto SpringBoot\ApiSpring\projetoSpring\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myFirstProject.rest.dto" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -182,7 +205,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myFirstProject.*" />
+          <option name="PATTERN" value="myFirstProject.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
